@@ -24,13 +24,14 @@
 }
 
 .question-container {
- padding: 1.5rem;
+ padding: 1rem;
  background-color: #fff;
- width: fit-content;
+ width: 100%;
  height: fit-content;
  margin-top: 3rem;
  margin-bottom: 1.5rem;
 }
+
 
 hr {
  margin: 10px;
