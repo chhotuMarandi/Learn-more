@@ -11,12 +11,12 @@
  display: flex;
  justify-content: center;
  align-items: center;
- background-color: #d0d0d0;
+ background-color: #cecece;
 }
 
 .wrapper {
  width: 780px;
- height: 360px;
+ height: 80vh;
 }
 
 .heading {
@@ -24,10 +24,16 @@
 }
 
 .question-container {
- padding: 10px;
+ padding: 1.5rem;
  background-color: #fff;
  width: fit-content;
  height: fit-content;
+ margin-top: 3rem;
+ margin-bottom: 1.5rem;
+}
+
+hr {
+ margin: 10px;
 }
 
 .questions {
@@ -39,3 +45,4 @@
 .questions i {
 font-size: 1.5rem;
 }
+
