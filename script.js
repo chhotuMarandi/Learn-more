@@ -1,8 +1,10 @@
-const ans = document.querySelector(".ans");
+// const ans = document.querySelector(".ans");
 
-// console.log(ans)
+const ques = document.querySelector(".question-container");
 
-const ques = document.querySelector(".questions");
+const toggleBtn = document.querySelector(".questions i");
+
+// console.log(toggleBtn)
 
 function createAnsElm () {
  const newDiv = document.createElement("div")
@@ -16,7 +18,11 @@ function createAnsElm () {
    "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo aperiam in exercitationem, totam dolorem odio hic nobis doloremque labore quis libero alias similique magnam quasi cumque culpa dolores sequi voluptates!";
 
    newDiv.appendChild(para)
-console.log(newDiv)
+   // console.log(newDiv)
+
+   ques.appendChild(newDiv);
 }
+
+
 
 createAnsElm();
