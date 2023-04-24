@@ -48,7 +48,7 @@ font-size: 1.5rem;
 }
 
 
-.minus {
+.minusBtn {
  display: none;
 }
 
@@ -58,11 +58,11 @@ font-size: 1.5rem;
 
 /* show text */
 
-.show .plus {
+.show .plusBtn {
 display: none;
 }
 
-.show .minus {
+.show .minusBtn  {
  display: inline-block;
 }
 
