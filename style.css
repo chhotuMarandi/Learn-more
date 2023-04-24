@@ -47,3 +47,25 @@ hr {
 font-size: 1.5rem;
 }
 
+
+.minus {
+ display: none;
+}
+
+.text {
+ display: none;
+}
+
+/* show text */
+
+.show .plus {
+display: none;
+}
+
+.show .minus {
+ display: inline-block;
+}
+
+.show .text {
+ display: block;
+}
