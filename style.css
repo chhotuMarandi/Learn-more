@@ -56,6 +56,11 @@ font-size: 1.5rem;
  display: none;
 }
 
+button {
+ border: none;
+ outline: none;
+}
+
 /* show text */
 
 .show .plusBtn {
@@ -68,4 +73,5 @@ display: none;
 
 .show .text {
  display: block;
+ transition: 0.3s all linear;
 }

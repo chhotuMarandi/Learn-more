@@ -1,6 +1,6 @@
-const btns = document.querySelectorAll(".plusBtn");
+const btns = document.querySelectorAll(".question-btn");
 
-const text = document.querySelectorAll(".text");
+// const text = document.querySelectorAll(".text");
 
 btns.forEach((btn)=> {
 btn.addEventListener("click", (e) => {
