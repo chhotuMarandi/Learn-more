@@ -1,10 +1,15 @@
-const btns = document.querySelectorAll(".question-btn");
+const questions = document.querySelectorAll(".question-container");
 
-// const text = document.querySelectorAll(".text");
+questions.forEach((question) => {
+ const btn = question.querySelector(".question-btn");
+ btn.addEventListener("click", function () {
 
-btns.forEach((btn)=> {
-btn.addEventListener("click", (e) => {
- const btnParent = (e.currentTarget.parentElement.parentElement);
- btnParent.classList.toggle("show")
-})
+  questions.forEach((item) => {
+   if(item !== question) {
+    item.classList.remove("show")
+   }
+  })
+
+  question.classList.toggle("show")
+ })
 })
